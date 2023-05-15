@@ -1,69 +1,28 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title>Test</title>
-        <link rel="stylesheet" href="css/myStyle.css"
-    </head>
-    <body>
-        <header>
-            <h1>
-                Test
-            </h1>
-            <nav>
-                <a href="/1.html">One</a>
-                <a href="/2.html">Two</a>
-                <a href="/3.html">Three</a>
-                <a href="/4.html">Four</a>
-            </nav>
-        </header>
-        <section>
-            <h2>
-                Test
-            </h2>
-            <ul>
-                <li>
-                    Test
-                </li>
-                <li>
-                    Test
-                </li>
-                <li>
-                    Test
-                </li>
-                <li>
-                    Test
-                </li>
-            </ul>
-        </section>
-        <section>
-            <h2>
-                Test
-            </h2>
-            <p>
-                Test
-                <progress value="100" max="100"></progress><br>
-                Test
-                <progress value="20" max="100"></progress><br>
-                Test
-                <progress value="50" max="100"></progress>
-            </p>
-        </section>
-        <section>
-            <h2>
-                Test
-            </h2>
-            <details open>
-                <summary>
-                    Test
-                </summary>
-                Test
-            </details>
-        </section>
-        <footer>
-            <p>
-                Test
-            </p>
-        </footer>
-    </body>
+<html>
+  <head>
+    <title>Login</title>
+    <link rel="stylesheet" href="/css/login.css" />
+  </head>
+  <body>
+    <form id="login">
+      <img src="/media/logo.png" alt="Logo" />
+      <input
+        type="text"
+        placeholder="username"
+        id="username"
+        name="username"
+        required
+      />
+      <input
+        type="password"
+        placeholder="*******************"
+        id="password"
+        name="password"
+        required
+      />
+      <input type="submit" id="submit" href="/html/index.html" value="Log In" />
+    </form>
+    <script src="/js/login.js"></script>
+  </body>
 </html>
