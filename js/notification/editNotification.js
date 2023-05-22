@@ -76,14 +76,10 @@ async function handleEditNotification(event, notificationId) {
   };
   
   for (const key in data) {
-    if (!data[key]) {
+    if (!data[key] || data.date_expired == "Invalid Date") {
       createModalDialog("Fill all data")
       return;
     }
-  }
-  if (data.date_expired == "Invalid Date") {
-    createModalDialog("Invalid date");
-    return;
   }
 
   try {
