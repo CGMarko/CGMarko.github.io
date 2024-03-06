@@ -1,2 +1,0 @@
-# cgmarko.github.io
-test
